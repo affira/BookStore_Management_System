@@ -1,0 +1,8 @@
++------------+        +------------+        +------------+
+| Customers  |        |   Sales    |        |   Books    |
++------------+        +------------+        +------------+
+| CustomerID |◄──┐    | SaleID     |        | BookID     |
+| Name       |   ├──► | BookID     | ◄───── | Title      |
+| Email      |   ├──► | CustomerID |        | Author     |
+| Phone      |       | Quantity   |        | Price      |
++------------+       +------------+        +------------+

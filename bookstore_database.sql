@@ -1,6 +1,6 @@
 -- Create the Customers table
 CREATE TABLE IF NOT EXISTS Customers (
-    CustomerID INTEGER PRIMARY KEY,
+    CustomerID INTEGER PRIMARY KEY KEY AUTOINCREMENT,
     Name TEXT NOT NULL,
     Email TEXT UNIQUE NOT NULL,
     Phone TEXT
@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS Customers (
 
 -- Create the Books table
 CREATE TABLE IF NOT EXISTS Books (
-    BookID INTEGER PRIMARY KEY,
+    BookID INTEGER PRIMARY KEY KEY AUTOINCREMENT,
     Title TEXT NOT NULL,
     Author TEXT NOT NULL,
     Price REAL NOT NULL
@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS Books (
 
 -- Create the Sales table (tracks book purchases)
 CREATE TABLE IF NOT EXISTS Sales (
-    SaleID INTEGER PRIMARY KEY,
+    SaleID INTEGER PRIMARY KEY KEY AUTOINCREMENT,
     BookID INTEGER,
     CustomerID INTEGER,
     Quantity INTEGER DEFAULT 1,

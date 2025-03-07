@@ -1,0 +1,6 @@
+SaleID,BookID,Title,Author,Price,CustomerID,CustomerName,Email,Quantity,Date
+1,101,"The Pragmatic Programmer","Andrew Hunt",40.99,201,"Alice","alice@email.com",1,2024-01-15
+2,102,"Clean Code","Robert C. Martin",45.50,202,"Bob","bob@email.com",2,2024-01-16
+3,101,"The Pragmatic Programmer","Andrew Hunt",40.99,201,"Alice","alice@email.com",1,2024-01-15
+4,103,"You Don't Know JS","Kyle Simpson",30.00,203,"Charlie","charlie@email.com",NULL,2024-01-17
+5,104,"Deep Work","Cal Newport",NULL,204,"David","david@email.com",1,2024-01-18

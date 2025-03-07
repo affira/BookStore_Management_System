@@ -1,11 +1,4 @@
-# models/book.py
-
-import sqlite3
-
-def get_db_connection():
-    conn = sqlite3.connect("bookstore.db")
-    conn.row_factory = sqlite3.Row
-    return conn
+from app.connection import get_db_connection
 
 # Function to fetch all books
 def get_all_books():

@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import sqlite3
+import os
 from datetime import datetime
 
 def clean_and_import_data(sales_csv_path):
@@ -87,7 +88,7 @@ def clean_and_import_data(sales_csv_path):
     print("\nImporting data to database...")
     
     # Connect to SQLite database
-    conn = sqlite3.connect('bookstore.db')
+    conn = sqlite3.connect('../db/bookstore.db')
     cursor = conn.cursor()
     
     # Create tables if they don't exist
@@ -274,7 +275,7 @@ def generate_sample_data():
     
     # Create DataFrame and save to CSV
     df = pd.DataFrame(sales_data)
-    csv_path = "data/sample_bookstore_sales.csv"
+    csv_path = os.path.join(os.path.dirname(__file__), 'raw', 'sample_bookstore_sales.csv')
     df.to_csv(csv_path, index=False)
     
     print(f"Sample data generated and saved to {csv_path}")
@@ -288,6 +289,6 @@ if __name__ == "__main__":
     cleaned_df = clean_and_import_data(csv_path)
     
     # Save the cleaned data to a new CSV file
-    cleaned_csv_path = "data/cleaned_bookstore_sales.csv"
+    cleaned_csv_path = os.path.join(os.path.dirname(__file__), 'processed', 'cleaned_bookstore_sales.csv')
     cleaned_df.to_csv(cleaned_csv_path, index=False)
     print(f"Cleaned data saved to {cleaned_csv_path}")

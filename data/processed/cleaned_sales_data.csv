@@ -1,0 +1,5 @@
+SaleID,BookID,Title,Author,Price,CustomerID,CustomerName,Email,Quantity,Date,High_Value_Purchase
+1,101,The Pragmatic Programmer,Andrew Hunt,40.99,201,Alice,alice@email.com,1.0,2024-01-15,True
+2,102,Clean Code,Robert C. Martin,45.5,202,Bob,bob@email.com,2.0,2024-01-16,True
+4,103,You Don't Know JS,Kyle Simpson,30.0,203,Charlie,charlie@email.com,1.0,2024-01-17,False
+5,104,Deep Work,Cal Newport,38.830000000000005,204,David,david@email.com,1.0,2024-01-18,False

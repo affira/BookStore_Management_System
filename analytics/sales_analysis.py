@@ -1,12 +1,14 @@
 # sales_analysis.py
 import sqlite3
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
 
 def connect_to_db():
     """Connect to the SQLite database"""
-    conn = sqlite3.connect('bookstore.db')
+    db_path = os.path.join(os.path.dirname(__file__), '..', 'db', 'bookstore.db')
+    conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row  # This enables column access by name
     return conn
 
@@ -126,8 +128,9 @@ def plot_top_books(data, save_path=None):
     plt.title('Top Selling Books')
     plt.tight_layout()
     
-    if save_path:
-        plt.savefig(save_path)
+    if save_path is None:
+        save_path = os.path.join(os.path.dirname(__file__), 'plots', f"plot_top_books_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
+    
     else:
         plt.show()
 
@@ -141,8 +144,8 @@ def plot_monthly_revenue(data, save_path=None):
     plt.grid(True)
     plt.tight_layout()
     
-    if save_path:
-        plt.savefig(save_path)
+    if save_path is None:
+        save_path = os.path.join(os.path.dirname(__file__), 'plots', f"plot_top_books_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
     else:
         plt.show()
 
@@ -153,8 +156,8 @@ def plot_price_range_analysis(data, save_path=None):
     plt.axis('equal')
     plt.title('Revenue by Price Range')
     
-    if save_path:
-        plt.savefig(save_path)
+    if save_path is None:
+        save_path = os.path.join(os.path.dirname(__file__), 'plots', f"plot_top_books_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
     else:
         plt.show()
 

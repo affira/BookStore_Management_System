@@ -1,0 +1,51 @@
+title,author,price,customer_name,customer_email,date,quantity,high_value_purchase,total_amount
+The Catcher in the Rye,J.D. Salinger,10.99,Sarah Williams,sarah.williams@example.com,2023-11-08,1,False,10.99
+The Catcher in the Rye,J.D. Salinger,10.99,Maria Garcia,maria.garcia@example.com,2023-07-11,3,False,32.97
+The Hobbit,J.R.R. Tolkien,19.99,Sarah Williams,sarah.williams@example.com,2023-08-03,1,False,19.99
+To Kill a Mockingbird,Harper Lee,14.5,Sarah Williams,sarah.williams@example.com,2023-06-02,2,False,29.0
+The Hobbit,J.R.R. Tolkien,19.99,John Smith,john.smith@example.com,2023-10-22,1,False,19.99
+Animal Farm,George Orwell,8.99,John Smith,john.smith@example.com,2023-11-10,1,False,8.99
+1984,George Orwell,11.99,Sarah Williams,sarah.williams@example.com,2023-04-25,1,False,11.99
+1984,George Orwell,11.99,Michael Brown,michael.brown@example.com,2023-07-18,1,False,11.99
+To Kill a Mockingbird,Harper Lee,14.5,Maria Garcia,maria.garcia@example.com,2023-10-21,1,False,14.5
+The Catcher in the Rye,J.D. Salinger,10.99,Sarah Williams,sarah.williams@example.com,2023-08-15,1,False,10.99
+The Great Gatsby,F. Scott Fitzgerald,12.99,Sarah Williams,sarah.williams@example.com,2023-08-04,2,False,25.98
+Harry Potter and the Sorcerer's Stone,J.K. Rowling,24.99,Maria Garcia,maria.garcia@example.com,2023-06-18,4,False,99.96
+To Kill a Mockingbird,Harper Lee,14.5,Maria Garcia,maria.garcia@example.com,2023-04-14,2,False,29.0
+Lord of the Flies,William Golding,12.5,Sarah Williams,sarah.williams@example.com,2023-08-21,1,False,12.5
+To Kill a Mockingbird,Harper Lee,14.5,Michael Brown,michael.brown@example.com,2023-10-25,4,False,58.0
+Animal Farm,George Orwell,8.99,Michael Brown,michael.brown@example.com,2023-01-25,3,False,26.97
+Lord of the Flies,William Golding,12.5,John Smith,john.smith@example.com,2023-08-24,1,False,12.5
+1984,George Orwell,11.99,John Smith,john.smith@example.com,2023-03-03,4,False,47.96
+The Hobbit,J.R.R. Tolkien,19.99,Maria Garcia,maria.garcia@example.com,2023-10-09,3,False,59.97
+Animal Farm,George Orwell,8.99,Sarah Williams,sarah.williams@example.com,2023-01-16,2,False,17.98
+Lord of the Flies,William Golding,12.5,Michael Brown,michael.brown@example.com,2023-12-08,3,False,37.5
+1984,George Orwell,11.99,John Smith,john.smith@example.com,2023-05-15,3,False,35.97
+The Great Gatsby,F. Scott Fitzgerald,12.99,Michael Brown,michael.brown@example.com,2023-07-14,2,False,25.98
+Animal Farm,George Orwell,8.99,Maria Garcia,maria.garcia@example.com,2023-12-13,2,False,17.98
+The Catcher in the Rye,J.D. Salinger,10.99,John Smith,john.smith@example.com,2023-04-05,4,False,43.96
+Pride and Prejudice,Jane Austen,9.99,Michael Brown,michael.brown@example.com,2023-07-27,4,False,39.96
+To Kill a Mockingbird,Harper Lee,14.5,Maria Garcia,maria.garcia@example.com,2023-09-21,1,False,14.5
+Pride and Prejudice,Jane Austen,9.99,Robert Johnson,robert.johnson@example.com,2023-10-23,4,False,39.96
+The Catcher in the Rye,J.D. Salinger,10.99,John Smith,john.smith@example.com,2023-09-27,1,False,10.99
+Pride and Prejudice,Jane Austen,9.99,Michael Brown,michael.brown@example.com,2023-03-07,1,False,9.99
+Animal Farm,George Orwell,8.99,Michael Brown,michael.brown@example.com,2023-03-10,1,False,8.99
+Harry Potter and the Sorcerer's Stone,J.K. Rowling,24.99,John Smith,john.smith@example.com,2023-01-17,4,False,99.96
+The Catcher in the Rye,J.D. Salinger,10.99,Maria Garcia,maria.garcia@example.com,2023-01-05,3,False,32.97
+The Great Gatsby,F. Scott Fitzgerald,12.99,Robert Johnson,robert.johnson@example.com,2023-02-02,1,False,12.99
+The Catcher in the Rye,J.D. Salinger,10.99,Michael Brown,michael.brown@example.com,2023-01-01,4,False,43.96
+To Kill a Mockingbird,Harper Lee,14.5,Michael Brown,michael.brown@example.com,2023-10-06,4,False,58.0
+Pride and Prejudice,Jane Austen,9.99,Robert Johnson,robert.johnson@example.com,2023-11-17,4,False,39.96
+Lord of the Flies,William Golding,12.5,Michael Brown,michael.brown@example.com,2023-02-06,4,False,50.0
+The Great Gatsby,F. Scott Fitzgerald,12.99,John Smith,john.smith@example.com,2023-11-06,4,False,51.96
+1984,George Orwell,11.99,Sarah Williams,sarah.williams@example.com,2023-11-04,1,False,11.99
+1984,George Orwell,11.99,Robert Johnson,robert.johnson@example.com,2023-07-20,4,False,47.96
+Lord of the Flies,William Golding,12.5,Maria Garcia,maria.garcia@example.com,2023-01-11,4,False,50.0
+Animal Farm,George Orwell,8.99,Maria Garcia,maria.garcia@example.com,2023-10-03,3,False,26.97
+Brave New World,Aldous Huxley,13.99,John Smith,john.smith@example.com,2023-12-17,4,False,55.96
+The Hobbit,J.R.R. Tolkien,19.99,Michael Brown,michael.brown@example.com,2023-11-23,4,False,79.96
+1984,George Orwell,11.99,Robert Johnson,robert.johnson@example.com,2023-03-20,4,False,47.96
+Lord of the Flies,William Golding,12.5,John Smith,john.smith@example.com,2023-04-11,4,False,50.0
+Pride and Prejudice,Jane Austen,9.99,Sarah Williams,sarah.williams@example.com,2023-03-16,2,False,19.98
+1984,George Orwell,11.99,John Smith,john.smith@example.com,2023-02-14,1,False,11.99
+Harry Potter and the Sorcerer's Stone,J.K. Rowling,24.99,Robert Johnson,robert.johnson@example.com,2023-09-04,4,False,99.96

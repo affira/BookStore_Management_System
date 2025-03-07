@@ -44,7 +44,38 @@ The system uses a relational database with the following tables:
 ## 🔧 Project Structure
 
 ```
-bookstore_management_system/
+BookStore_Management_System/
+├── frontend/
+│   ├── static/
+│   │   ├── css/
+│   │   │   ├── style.css
+│   │   ├── js/
+│   │   │   ├── books.js
+│   │   │   ├── customers.js
+│   │   │   ├── sales.js
+│   │   │   ├── dashboard.js
+│   │   │   ├── api.js
+│   ├── templates/
+│   │   ├── index.html
+│   │   ├── books.html
+│   │   ├── customers.html
+│   │   ├── sales.html
+│   │   ├── dashboard.html
+│
+│
+├── analytics/
+|   ├── plots/
+│   │   ├── plot_monthly_revenue_20250307_132527.png
+│   │   ├── plot_price_ranges_20250307_132527.png
+│   │   └── plot_top_books_20250307_132527.png
+    ├── sales_reports/
+│   │   ├── report_customer_spending_20250307_132527.csv
+│   │   ├── report_monthly_sales_20250307_132527.csv
+│   │   ├── report_sales_by_author_20250307_132527.csv
+│   │   ├── report_sales_by_author_20250307_132527.csv
+│   │   └── report_price_range_analysis_20250307_132527.csv
+|   └──  sales_analysis.py
+│   
 ├── app/
 |   ├── main.py
 |   ├── connection.py
@@ -62,17 +93,30 @@ bookstore_management_system/
 │       ├── book_schema.py
 │       ├── customer_schema.py
 │       └── sale_schema.py
+│ 
 ├── data/
-│   ├── cleaned_sales_data.csv
-│   └── raw_sales_data.csv
-├── bookstore.db
-├── bookstore_data_cleaning.py
-├── sales_analysis.py
-├── ERD.txt
-├── bookstore_database.sql
-├── insert_data.sql
-├── requirements.txt
-└── run.py
+|   ├── processed/
+│   │   ├── cleaned_bookstore_sales.csv
+│   │   └── cleaned_sales_data.csv
+|   ├── raw/
+│   │   ├── raw_sales_data.csv
+│   │   └── sample_bookstore_sales.csv
+│   └── bookstore_data_cleaning.py
+│
+├── db/
+|   ├── bookstore_database.sql
+|   ├── bookstore.db
+│   └── insert_data.sql
+│
+├── docs/
+|   ├── ERD.txt
+│   └── requirements.txt
+│
+├── scripts/
+│   └── run.py
+│
+├── .gitignore
+└── README.md
 ```
 
 ## 📥 Installation and Setup

@@ -1,0 +1,8 @@
+Name,Email,PurchaseCount,BooksBought,TotalSpent,AvgBookPrice
+Michael Brown,michael.brown@example.com,24,70,902.6,12.326666666666666
+John Smith,john.smith@example.com,24,64,900.46,13.658333333333333
+Maria Garcia,maria.garcia@example.com,20,52,757.64,14.094
+Robert Johnson,robert.johnson@example.com,12,42,577.58,13.656666666666666
+Sarah Williams,sarah.williams@example.com,20,28,342.78,12.492
+Bob,bob@email.com,1,2,91.0,45.5
+Alice,alice@email.com,1,1,40.99,40.99
